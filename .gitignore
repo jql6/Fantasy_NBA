@@ -1,5 +1,10 @@
+# gitignore file for the nba data extraction
 
+# Ignore flask stuff
 FlaskAPI/vir_env
 FlaskAPI/__pycache__/
 FlaskAPI/.DS_Store
 .ipynb_checkpoints
+
+# Ignore the extracted .json files
+*.json
