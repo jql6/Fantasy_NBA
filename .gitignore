@@ -8,3 +8,6 @@ FlaskAPI/.DS_Store
 
 # Ignore the extracted .json files
 *.json
+
+# Ignore .csv files
+*.csv
