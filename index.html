@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hashtag Basketball League Scouting Report Scraper</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-body">
+        <head>
+  <!-- style sheet -->
+  <style type = text/css>
+    body{
+        color: white;
+        background-color: rgb(60, 60, 60);
+    }
+<!-- I don't know why, but both `a` and `a:link` must be changed -->
+<!-- to change link colors -->
+<pre><code>a{ color: rgb(97, 175, 239) !important; }
+a:link{ color: rgb(97, 175, 239) !important; }
+a:visited{ color: rgb(230, 180, 180) !important; }
+
+:is(h1, h2, h3, h4, h5, h6, p) { color: white; }
+
+code{
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    outline-style: solid;
+    outline-color: rgb(160, 160, 160);
+    outline-width: 1px;
+    outline-offset: 1px;
+    background-color: rgb(50, 50, 50);
+}
+
+pre code{
+  margin-left: 0em;
+  margin-right: 0em;
+}
+</code></pre>
+  </style>
+</head>
+<!-- omit in toc -->
+<h1 id="hashtag-basketball-league-scouting-report-scraper">Hashtag Basketball League Scouting Report Scraper</h1>
+<!-- omit in toc -->
+<h2 id="author-jackie-lu">Author: Jackie Lu</h2>
+<!-- omit in toc -->
+<h2 id="date-2021-mar-24">Date: 2021, Mar. 24</h2>
+<section class="footer">
+  <p>
+    <a href="https://github.com/jql6/h_bball_scraper/">
+      Link to the repository
+    </a> | 
+    <a href="https://jql6.github.io/">
+      Return to homepage
+    </a>
+  </p>
+</section>
+<!-- omit in toc -->
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#set-up">Set up</a></li>
+<li><a href="#directions">Directions</a></li>
+<li><a href="#notes">Notes</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+<h1 id="set-up">Set up</h1>
+<p>You'll need Conda, a Hashtag Basketball account with your league set up already, and a Yahoo Fantasy Sports account. see <a href="#references">References</a> for the links. With Conda, you'll need to create a new environment and install the Selenium package.</p>
+<h1 id="directions">Directions</h1>
+<p>In Terminal, change directories into the directory containing the <code>.py</code> file. Activate the Conda environment that you made and then run the file with <code>python hashtag_bball_bot.py</code>. When the script is finished, you should have a <code>rankings.csv</code> file in your directory.</p>
+<h1 id="notes">Notes</h1>
+<p>Sometimes the script will fail due to a timeout near the yahoo login steps. You can just try the script again.</p>
+<h1 id="references">References</h1>
+<ol>
+<li><a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">Conda installation</a></li>
+<li><a href="https://hashtagbasketball.com/">Hashtag Basketball</a></li>
+<li><a href="https://sports.yahoo.com/fantasy/">Yahoo Fantasy Sports</a></li>
+<li><a href="https://chromedriver.chromium.org/">Chromedriver</a></li>
+</ol>
+<br>
+<br>
+<br>
+<br>
+<!-- Using four breaks here so that when you scroll all the way down -->
+<!-- the text content won't be stuck at the very bottom of the screen. -->
+<!-- Creating table of contents with Markdown All in One by Yu Zhang. -->
+    </body>
+    </html>
