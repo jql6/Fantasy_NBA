@@ -605,7 +605,7 @@ if (know_league_id == "1"):
 """ 
 
 # Construct the object from the class
-yahoo_class = YahooData(your_league_id = "1157")
+yahoo_class = YahooData(your_league_id = "1157") # Add your league id here
 # Generate the oauth
 yahoo_class.refresh_oauth()
 # Show that the oauth is generated
