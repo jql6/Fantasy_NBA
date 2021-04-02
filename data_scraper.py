@@ -1,14 +1,15 @@
 """
-Python script for scraping the league scouting report from Hashtag Basketball.
+Python script for scraping NBA and Yahoo Fantasy Sports data into a PostgreSQL
+database.
 
-Title: Hashtag Basketball League Scouting Report Scraper
+Title: NBA and Yahoo Fantasy Sports data scraper
 Author: Jackie Lu
 Date: 2021, Mar. 23
 
 Instructions:
-Edit the login_info.json fields to your emails/passwords.
+Edit the private.json and sql_login.json fields to your emails/passwords.
 The program assumes that you have the json file in the same directory
-as where you're running this python file.s
+as where you're running this python file.
 """
 
 # Libraries
@@ -593,7 +594,7 @@ def refresh_SQL_data(database_connection,
 The commands
 """
 
-"""
+""" Code for guiding the user to the site to find their league id
 # Open browser for user to the link if user doesn't know league id
 know_league_id = input(
     "Optional: Enter `1` if you don't know your league id: \n"
