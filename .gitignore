@@ -12,3 +12,6 @@ sql_login.json
 
 # Ignore .csv files
 *.csv
+
+# Ignore pycache
+/__pycache__/
