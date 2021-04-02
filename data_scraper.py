@@ -594,7 +594,7 @@ def refresh_SQL_data(database_connection,
 The commands
 """
 
-""" Code for guiding the user to the site to find their league id
+
 # Open browser for user to the link if user doesn't know league id
 know_league_id = input(
     "Optional: Enter `1` if you don't know your league id: \n"
@@ -602,7 +602,7 @@ know_league_id = input(
 
 if (know_league_id == "1"):
     webbrowser.open(url = "https://login.yahoo.com/?.lang=en-US&src=fantasy&.done=https%3A%2F%2Fbasketball.fantasysports.yahoo.com%2Fnba&pspid=782202766&activity=ybar-signin")
-""" 
+
 
 # Construct the object from the class
 yahoo_class = YahooData(your_league_id = "1157") # Add your league id here
