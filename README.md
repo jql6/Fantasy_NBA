@@ -2,6 +2,8 @@
 
 [Link to matchup projections graph](https://public.tableau.com/profile/jackie.lu7613#!/vizhome/Projectioncomparisons/Sheet1?publish=yes)
 
+[Link to more information about the data](https://jql6.github.io/Fantasy_NBA/)
+
 This repo contains the Python scripts I used to scrape NBA and Yahoo Fantasy Sports data into a PostgreSQL database. I used this database to make the [matchup projections Tableau graph](https://public.tableau.com/profile/jackie.lu7613#!/vizhome/Projectioncomparisons/Sheet1?publish=yes).
 
 <details> <summary>References</summary>
